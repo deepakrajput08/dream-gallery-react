@@ -1,16 +1,115 @@
-# React + Vite
+# 📸 Dream Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Image Gallery built with **React**, **Tailwind CSS**, and **Axios** using the **Lorem Picsum API**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎨 Modern Glassmorphism UI
+- 🌈 Gradient Background
+- 📱 Fully Responsive Design
+- 🖼️ Dynamic Image Gallery
+- 🔍 Hero Section
+- ❤️ Hover Effects
+- 📥 Download Images
+- 🔗 View Original Image
+- 📄 Pagination
+- ⚡ Fast API Fetching with Axios
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- Lorem Picsum API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── App.jsx
+│── main.jsx
+│── index.css
+│
+├── assets/
+├── components/
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/dream-gallery-react.git
+```
+
+Move into the project folder
+
+```bash
+cd dream-gallery-react
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots of your project here.
+
+Example:
+
+```
+screenshots/
+├── home.png
+├── gallery.png
+```
+
+---
+
+## 🌐 API Used
+
+Lorem Picsum API
+
+https://picsum.photos/
+
+---
+
+## 📌 Future Improvements
+
+- 🔍 Search Images
+- ❤️ Favorites
+- 🌙 Dark/Light Theme
+- 🖼️ Fullscreen Image Preview
+- ♾️ Infinite Scroll
+- 📂 Category Filters
+
+---
+
+## 👨‍💻 Author
+
+**Dr Doom**
+
+GitHub: https://github.com/your-username
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to **Star ⭐ the repository**.
