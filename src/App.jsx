@@ -68,11 +68,17 @@ const App = () => {
             className="group rounded-3xl overflow-hidden bg-white/5 backdrop-blur-xl border border-white/10 hover:border-cyan-400 transition duration-500 shadow-xl hover:-translate-y-2"
           >
             <div className="overflow-hidden relative">
-              <img
-                src={e.download_url}
-                alt={e.author}
-                className="h-72 w-full object-cover group-hover:scale-110 transition duration-700"
-              />
+             
+<img
+  src={e.download_url}
+  alt={e.author}
+  onError={(event) => {
+    event.currentTarget.src =
+      "https://placehold.co/600x400/1e293b/ffffff?text=Image+Unavailable";
+  }}
+  className="h-72 w-full object-cover group-hover:scale-110 transition duration-700"
+/>
+
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end justify-between p-4">
                 <span className="bg-white/20 px-3 py-1 rounded-full text-sm">
